@@ -14,7 +14,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0062be;
+    background: #000000;
     transition: 0.5s;
 }
 header{
