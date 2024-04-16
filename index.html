@@ -5,9 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="storage/img/burger.png" type="image/png">
+    <link rel="shortcut icon" href="storage/img/favicon.png" type="image/png">
 </head>
 <body>
-    
+    <section class="sec">
+        <header>
+            <a href="#"><img src="storage/img/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>I like</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, architecto perspiciatis debitis autem repellendus eius nam expedita, aliquid distinctio molestiae temporibus, quidem voluptates rerum veniam saepe laboriosam vel quas asperiores.</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="storage/img/monster1.webp" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="storage/img/monster1.webp" onclick="imgSlider('storage/img/monster1.webp');changeBgColor('#0062be')"></li>
+            <li><img src="storage/img/monster2.webp" onclick="imgSlider('storage/img/monster2.webp');changeBgColor('#e60c2c')"></li>
+            <li><img src="storage/img/monster3.webp" onclick="imgSlider('storage/img/monster3.webp');changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="storage/img/facebook.png"></a></li>
+            <li><a href="#"><img src="storage/img/twitter.png"></a></li>
+            <li><a href="#"><img src="storage/img/instagram.png"></a></li>
+        </ul>
+    </section>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
